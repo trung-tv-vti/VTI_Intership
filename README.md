@@ -7,9 +7,9 @@
 2. Bài tập được lưu trên Drive:
 	https://drive.google.com/open?id=1SEqHNUW9gVkr83jvn9bje21E24XE5jWU
 
-Kế hoạch thực tập:
-...Thời gian thực tập ~8 tuần (25/5-17/7)
-...Nội dung cụ thể từng tuần thực tập như sau.
+3. Kế hoạch thực tập:
+- Thời gian thực tập ~8 tuần (25/5-17/7)
+- Nội dung cụ thể từng tuần thực tập như sau.
 
 Tuần 1 (25/5-29/5): Làm quen với ML cơ bản
 - Tìm hiểu về các thuật toán machine learning cơ bản (K-means, KNN, SVM)
