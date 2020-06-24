@@ -53,9 +53,9 @@ Specifically, we show how to build a state-of-the-art YOLOv3 model by stacking G
 import gluoncv as gcv
 from gluoncv.data import VOCDetection
 # typically we use 2007+2012 trainval splits for training data
-train_dataset = VOCDetection(splits=[(2007, 'trainval'), (2012, 'trainval')])
+train_dataset = VOCDetection(root = '/home/v000284/Documents/VTI/darknet/VOCdevkit', splits=[(2007, 'trainval')])
 # and use 2007 test as validation data
-val_dataset = VOCDetection(splits=[(2007, 'test')])
+val_dataset = VOCDetection(root = '/home/v000284/Documents/VTI/darknet/VOCdevkit', splits=[(2007, 'test')])
 
 print('Training images:', len(train_dataset))
 print('Validation images:', len(val_dataset))
